@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lambda</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <link rel="stylesheet" href="./css/normalize.css" type="text/css">
     </head>
 
     <body>
-        <header>
-            <div class="wrapper">
-                <h1 class="logo">Lambda</h1>
-                <nav>
-                    <h2>Main Navigation</h2>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Ingredients</a></li>
-                        <li><a href="">Menu</a></li>
-                        <li><a href="">Reviews</a></li>
-                        <li><a href="">Reservations</a></li>
-                        <li><a href="">twitter-icon</a></li>
-                        <li><a href="">youtube-icon</a></li>
-                        <li><a href="">facebook-icon</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+            <header>
+                    <a href="#" class="logo">
+                        <img src="./image/logo.png" alt="" class="logo_img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu_list">
+                            <li class="menu_item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#">Ingredients</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#">Menu</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#">Reviews</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#">Reservations</a>
+                            </li>
+                            <li class="menu_item social_icons">
+                                <ul>
+                                    <li><a href="">twitter-icon</a></li>
+                                    <li><a href="">youtube-icon</a></li>
+                                    <li><a href="">facebook-icon</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+            </header>
 
-        <section id="home">
-            <h2>the right ingredients for the right food</h2>
-            <img class="divider" src="./image/Decoration_main.png" alt="">
-            <div class="button"><a href="">book a table</a></div>
-            <div class="button"><a href="">see the menu</a></div>
-        </section>
+            <section class="home">
+                <h2 class="home_title">the right ingredients for the right food</h2>
+                <img class="home_divider" src="./image/Decoration_main.png" alt="">
+                <ul class="buttons_wrapper">
+                    <li><a href="#" class="home_button">book a table</a></li>
+                    <li><a href="#" class="home_button">see the menu</a></li>
+                </ul>
+            </section>
 
-        <section id="about">
+        <section class="about">
             <h2>Just the right food</h2>
             <img class="divider" src="./image/Divider_yellow.png" alt="">
             <p class="description">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
@@ -42,7 +65,7 @@
             <img src="./image/dish.png" alt="dish example">
         </section>
 
-        <section id="ingredients">
+        <section class="ingredients">
             <div class="ingredients_wrapper">
                 <h2>Fine ingredients</h2>
                 <img class="divider" src="./image/Divider_white.png" alt="">
@@ -53,7 +76,7 @@
             </div>
         </section>
 
-        <section class="menu">
+        <section class="menu_dishes">
             <h3>Appetisers</h3>
             <img src="./image/Divider_yellow.png" alt="" class="divider">
             <ul>

@@ -1,0 +1,109 @@
+/* global */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+    position: relative;
+}
+
+a {
+    color:#fff; 
+}
+
+/* header */
+header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.logo {
+    width: 164px;
+    height: 40px;
+}
+
+.logo_img {
+    width: 100%;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.menu_list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_item {
+    margin-right: 20px;
+}
+
+.menu_item a {
+    font-size: 21px;
+    text-decoration: none;
+}
+
+/* section home */
+.home {
+    background-image: url(../image/home_Bg.jpeg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_title {
+    font-family: 'YesevaOne';
+    font-size: 90px;
+    padding: 0 20%;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 34px;
+}
+
+.home_divider {
+    margin-bottom: 34px;
+}
+
+.buttons_wrapper {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons_wrapper li:first-child {
+    margin-right: 30px;
+}
+
+.home_button {
+    font-size: 18px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.278);
+    opacity: 0.8;
+    width: 228px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.home_button:hover {
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.702);
+}
+  
+  
