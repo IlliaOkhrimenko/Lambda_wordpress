@@ -22,8 +22,8 @@ header {
 }
 
 .logo {
-    width: 164px;
-    height: 40px;
+    width: 156px;
+    height: 92px;
 }
 
 .logo_img {
@@ -101,9 +101,8 @@ header {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .home_button:hover {
     border-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.702);
 }
-  
-  
