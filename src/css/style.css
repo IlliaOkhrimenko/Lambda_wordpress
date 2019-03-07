@@ -19,6 +19,7 @@ header {
     display: flex;
     align-items: center;
     padding: 0 10%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0));
 }
 
 .logo {
@@ -34,7 +35,7 @@ header {
     margin-left: auto;
 }
 
-.menu_list {
+.menu_list, .social_icons {
     display: flex;
     align-items: center;
     height: 100%;
@@ -50,6 +51,15 @@ header {
 .menu_item a {
     font-size: 21px;
     text-decoration: none;
+}
+
+.social_icons{
+    width: 81px;
+    justify-content: space-between;
+}
+
+.social_icons a {
+    color: #dab33e;
 }
 
 /* section home */
@@ -105,4 +115,56 @@ header {
 .home_button:hover {
     border-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.702);
+}
+
+/* section about */
+.section_title {
+    font-family: 'YesevaOne';
+    text-align: center;
+    font-size: 36px;
+    line-height: 0.67;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 51px 0 32px;
+    color: #cc9900;
+}
+.section_title::after {
+    content: url(../image/Divider_yellow.png);
+    margin-top: 15px;
+}
+
+.about {
+    padding: 55px 10% 0;
+    display: flex;
+    height: 710px;
+    background: linear-gradient(317deg, rgba(1, 1, 1, 0.14), rgba(255, 255, 255, 0.14)), url(../image/pattern_2.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_description {
+    width: 409px;
+    height: 111px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4c4c4c;
+    margin: 0 0 52px;
+}
+
+.about_content img {
+    margin-left: 131px;
+    align-self: flex-start; 
+}
+
+.about_image {
+    padding-left: 31px;
 }
