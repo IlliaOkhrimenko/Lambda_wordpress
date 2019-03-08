@@ -174,9 +174,9 @@ header {
 
 .ingredients {
     height: 758px;
-    padding: 100px 10% 100px 51%;
     background-image: url(../image/ingredients_bg.jpeg);
     background-size: cover;
+    display: flex;
 }
 
 .ingredients_content {
@@ -185,7 +185,8 @@ header {
     align-items: center;
     background: rgba(0, 0, 0, 0.65);
     width: 570px;
-    padding: 80px ;
+    margin: 100px 10% 100px 51%;
+    padding: 80px;
 }
 
 .title_white {
@@ -217,9 +218,113 @@ header {
     flex-direction: row;
     width: 380px;
     justify-content: space-between;
+    list-style: none;
 }
 
 .ingredients_images img {
     border-radius: 50%;
     border: solid 5px rgba(255, 255, 255, 0.09);
+}
+
+/* section menu */
+
+.menu_dishes {
+    height: 994px;
+    background: linear-gradient(134deg, rgba(32, 90, 91, 0.14), rgba(255, 255, 255, 0.14)), url(../image/pattern_1.png);
+    background-size: cover;
+    display: flex;
+    padding: 100px 14%;
+}
+
+.menu_dishes_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 790px;
+    justify-content: space-between;
+    margin: 0 -50px;
+}
+
+.menu_dishes_chapter {
+    width: 433px;
+    margin: 0 50px;
+}
+
+.menu_dishes_content .title_yellow {
+    margin: 0;
+}
+
+.menu_dishes_content li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px 11px 12px 12px;
+    margin-top: 18px;
+    position: relative;
+}
+
+.menu_dishes_content hr {
+    width: 100%;
+    height: 1px;
+    background-color:#c89f2d;
+    margin: 6px 0;
+    border: 0;
+}
+
+.dish {
+    flex: 1 0 50%; 
+    font-family: 'YesevaOne';
+    font-size: 21px;
+    color: #c89f2d;
+    line-height: 24px;
+}
+
+.prise {
+    flex: 1 0 50%;
+    font-family: 'YesevaOne';
+    text-align: right;
+    font-size: 21px;
+    color: #c89f2d;
+    line-height: 24px;
+}
+
+.dish_description {
+    flex: 1 0 100%;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.special {
+    border: solid 1px #c89f2d;
+}
+
+.special::before {
+    content: 'Special';
+    position: absolute;
+    width: 69px;
+    height: 22px;
+    background-color: #c89f2d;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    right: -1px;
+    top: -23px;
+}
+
+/* section reviews */
+
+.reviews {
+    height: 758px;
+    background-image: url(../image/reviews_bg.jpeg);
+    background-size: cover;
+    display: flex;
+}
+
+/* section reservation */
+
+.reservation {
+    height: 708px;
+    background: linear-gradient(347deg, rgba(12, 52, 53, 0.14), rgba(255, 255, 255, 0.14)), url(../image/pattern_2.png);
+    background-size: cover;
 }
