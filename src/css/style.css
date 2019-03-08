@@ -1,6 +1,8 @@
 /* global */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -118,24 +120,8 @@ header {
 }
 
 /* section about */
-.section_title {
-    font-family: 'YesevaOne';
-    text-align: center;
-    font-size: 36px;
-    line-height: 0.67;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 51px 0 32px;
-    color: #cc9900;
-}
-.section_title::after {
-    content: url(../image/Divider_yellow.png);
-    margin-top: 15px;
-}
-
 .about {
-    padding: 55px 10% 0;
+    padding: 55px 10% 30px;
     display: flex;
     height: 710px;
     background: linear-gradient(317deg, rgba(1, 1, 1, 0.14), rgba(255, 255, 255, 0.14)), url(../image/pattern_2.png);
@@ -148,6 +134,21 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.title_yellow {
+    font-family: 'YesevaOne';
+    text-align: center;
+    font-size: 36px;
+    line-height: 0.67;
+    display: flex;
+    flex-direction: column;
+    margin: 51px 0 32px;
+    color: #cc9900;
+}
+.title_yellow::after {
+    content: url(../image/Divider_yellow.png);
+    margin-top: 15px;
 }
 
 .about_description {
@@ -167,4 +168,58 @@ header {
 
 .about_image {
     padding-left: 31px;
+}
+
+/* section ingredients */
+
+.ingredients {
+    height: 758px;
+    padding: 100px 10% 100px 51%;
+    background-image: url(../image/ingredients_bg.jpeg);
+    background-size: cover;
+}
+
+.ingredients_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.65);
+    width: 570px;
+    padding: 80px ;
+}
+
+.title_white {
+    font-family: 'YesevaOne';
+    text-align: center;
+    font-size: 36px;
+    line-height: 0.67;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.title_white::after {
+    content: url(../image/Divider_white.png);
+    margin-top: 21px;
+}
+
+.ingredients_description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 76px;
+}
+
+.ingredients_images {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    justify-content: space-between;
+}
+
+.ingredients_images img {
+    border-radius: 50%;
+    border: solid 5px rgba(255, 255, 255, 0.09);
 }
