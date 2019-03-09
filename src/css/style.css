@@ -366,4 +366,74 @@ header {
     height: 708px;
     background: linear-gradient(347deg, rgba(12, 52, 53, 0.14), rgba(255, 255, 255, 0.14)), url(../image/pattern_2.png);
     background-size: cover;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reservation img {
+    padding-right: 30px;
+}
+
+.reservation_content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+
+.reservation_content .title_yellow {
+    margin-top: 0;
+}
+
+.reservation_description {
+    font-size: 16px;
+    color: #4c4c4c;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 46px;
+    width: 417px;
+}
+#reservation_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.booking_form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 430px;
+    list-style: none;
+}
+
+.booking_form li label {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: bold;
+    color: #c89f2d;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.booking_form li:nth-child(odd) {
+    margin-right: 30px;
+}
+
+.booking_form input, select{
+    display: block;
+    width: 200px;
+    height: 36px;
+    margin-top: 10px;
+}
+
+.reservation_button {
+    width: 200px;
+    height: 36px;
+    text-align: center;
+    background-color: #c89f2d;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+
 }
