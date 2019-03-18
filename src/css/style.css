@@ -242,6 +242,7 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     height: 790px;
+    width: 100%;
     justify-content: space-between;
     margin: 0 -50px;
 }
@@ -426,6 +427,12 @@ header {
     width: 200px;
     height: 36px;
     margin-top: 10px;
+    border: 1px solid #c4c9c4;
+    border-radius: 2px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    padding: 3px 12px;
+    color: #7c7c7c;
+    background-color: white;
 }
 
 .reservation_button {
@@ -437,6 +444,16 @@ header {
     font-family: 'Open Sans';
     font-size: 16px;
 }
+
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
 
 /* footer */
 
